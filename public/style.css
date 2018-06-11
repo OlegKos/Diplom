@@ -1,0 +1,138 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+div{
+	box-sizing: border-box;
+}
+body, html{
+height:100%;
+overflow:hidden;
+}
+
+#app{
+	width:100%;
+	height:100%;
+}
+
+#left_date_list_menu{
+	height:100%;
+	width:300px;
+	box-shadow: 5px 0px 10px -5px #000;
+	display: inline-block;
+	float: left;
+}
+
+#left_date_list_menu .active{
+	background-color: #dadada;
+}
+
+.date_list_element{
+	width:100%;
+	padding:0px 20px;
+	text-align:center;
+	font-size:22px;
+
+}
+
+#left_date_list_search{
+	width:100%;
+	padding:5px 10px;
+	border-bottom:1px solid #dadada;
+	height:40px;
+	line-height: 30px;
+	font-size: 20px;
+}
+#left_date_list_search div{
+	display:inline-block;
+	float:left;
+	margin-left:10px;
+}
+#left_date_list_search .arrow_down{
+	background-image: url(./image/arrow.png);
+	width:30px;
+	height:30px;
+	background-size: contain;
+}
+#left_date_list_search .date_picker{
+	background-image: url(./image/datePicker.png);
+	width:30px;
+	height:30px;
+	background-size: contain;
+}
+#left_date_list_search .arrow_top{
+	background-image: url(./image/arrow.png);
+	width:30px;
+	height:30px;
+	background-size: contain;
+	transform:rotate(180deg);
+
+}
+
+.date_list_element_container{
+	padding: 10px 0px;
+	border-bottom:1px solid #dadada;
+}
+
+
+
+
+
+#main_content{
+	float:left;
+	display:inline-block;
+	width:calc(100% - 300px);
+	padding: 20px 40px;
+}
+
+.table_row{
+	width:100%;
+	border-bottom:1px solid #dadada;
+	text-align:center;
+
+}
+.table_column{
+	width:33%;
+	padding:5px;
+	display:inline-block;
+}
